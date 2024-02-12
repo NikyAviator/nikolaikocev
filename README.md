@@ -7,7 +7,7 @@ _Let's start with the frontend:_
 1. npm init vite@latest . (creates project in same folder)
 2. npm install bootstrap react react-bootstrap react-dom react-icons react-router-dom sass
 
-To run frontend in nikolaikocev/frontend/:
+To run: cd nikolaikocev/frontend/:
 
 ```
 npm run dev
@@ -19,9 +19,9 @@ _Also, public has been moved to root folder (frontend/public/)._
 
 ---
 
-# Basic project done
+# Customize:
 
-### Cleanup:
+### Cleanup and adding basic structure:
 
 Delete everything in src/, except:
 App.jsx & main.jsx
@@ -68,3 +68,29 @@ Do not forget to import the file in App.jsx
 ```
 import './scss/main.scss';
 ```
+
+---
+
+### Sticky footer:
+
+```
+touch sticky-footer.scss
+```
+
+The file:
+
+```
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+#root main {
+  flex: 1 0 auto; /* This tells the browser to make the main content grow and shrink as needed, but not to shrink less than its base size */
+}
+#root footer {
+  flex-shrink: 0; /* This tells the browser that the footer should not shrink if there is not enough space */
+}
+```
+
+---
