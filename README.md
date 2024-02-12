@@ -33,3 +33,38 @@ Create folders in src/ :
 ```
 mkdir Components Pages scss
 ```
+
+The main.scss file:
+
+```
+// THEORY:
+/*Om vi override bootstrap variables:
+
+1. //Bootstrap variable overrides (måste komma innan import bootstrap!):
+$body-bg: black; (tex)
+$body-color: white; (tex)
+
+2. //Import Bootastrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+3. //Import our own scss (could be several files)
+@import "./sticky-footer";
+@import "./body";
+*/
+
+// IMPLEMENTATION:
+// 1. Override bootstrap variables
+
+// 2.  Bootstrap css
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+//3. Our own css
+@import './sticky-footer.scss';
+@import './background.scss';
+```
+
+Do not forget to import the file in App.jsx
+
+```
+import './scss/main.scss';
+```
