@@ -1,12 +1,25 @@
-import img from '/vite.svg';
-import './scss/main.scss';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import '../src/scss/main.scss';
 
+import Home from './Pages/Home.jsx';
+import Header from './Components/Header.jsx';
+import Footer from './Components/Footer';
 function App() {
   return (
     <>
-      <h1>PPC</h1>
-      <p>TEST 123 123</p>
-      <img src={img} alt='Vite logo' />
+      <BrowserRouter>
+        <header>
+          <Header />
+        </header>
+        <main>
+          <Routes>
+            <Route path='/' element={<Home />} />
+          </Routes>
+        </main>
+        <footer>
+          <Footer />
+        </footer>
+      </BrowserRouter>
     </>
   );
 }
