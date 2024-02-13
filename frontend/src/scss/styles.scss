@@ -15,6 +15,14 @@ $body-bg: #e4b15f; // Set your desired background color
 // // Additional global styles
 // @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
 
+// Then override body background with a gradient
+// body {
+//   background: radial-gradient(
+//     circle,
+//     rgba(180, 180, 184, 1) 0%,
+//     rgba(242, 224, 196, 1) 100%
+//   );
+// }
 // * {
 //   box-sizing: border-box;
 // }
