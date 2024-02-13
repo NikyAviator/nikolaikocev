@@ -5,6 +5,7 @@
 $body-bg: black; (tex)
 $body-color: white; (tex)
 
+
 2. //Import Bootastrap
 @import "../../node_modules/bootstrap/scss/bootstrap"; 
 
@@ -15,6 +16,7 @@ $body-color: white; (tex)
 
 // IMPLEMENTATION:
 // 1. Override bootstrap variables
+$body-bg: #e7bd7a;
 
 // 2.  Bootstrap css
 @import '../../node_modules/bootstrap/scss/bootstrap';

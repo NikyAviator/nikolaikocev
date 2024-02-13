@@ -2,7 +2,8 @@ import '../scss/main.scss';
 import Container from 'react-bootstrap/esm/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Accordion from '../Components/Accordion/Accordion';
+//import Accordion from '../Components/Accordion/Accordion';
+import NikyInfo from '../Components/NikyInfo';
 
 const Home = () => {
   return (
@@ -14,8 +15,8 @@ const Home = () => {
           </Col>
         </Row> */}
         <Row>
-          <Col>
-            <Accordion />
+          <Col md={6} lg={6} sm={6}>
+            <NikyInfo />
           </Col>
         </Row>
       </Container>
