@@ -146,6 +146,7 @@ const NikyInfo = () => {
           <hr />
         </Card.Text>
         <Button
+          className='my-2'
           variant='dark'
           alt='GitHub Link'
           href='https://github.com/NikyAviator'
