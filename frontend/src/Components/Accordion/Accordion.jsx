@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import data from './data';
-import '../../scss/main.scss';
+import '../../scss/styles.scss';
 import { Button } from 'react-bootstrap';
 
 const Accordion = () => {

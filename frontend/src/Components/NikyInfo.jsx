@@ -1,9 +1,9 @@
-import '../scss/main.scss';
+import '../scss/styles.scss';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import nikyPic from '../../public/pictures/niky.png';
+import nikyPic from '/pictures/niky.png';
 
 const NikyInfo = () => {
   return (
