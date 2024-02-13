@@ -16,7 +16,6 @@ const Home = () => {
         <Row>
           <Col>
             <Accordion />
-            <p>ppc</p>
           </Col>
         </Row>
       </Container>
