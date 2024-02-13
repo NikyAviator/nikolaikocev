@@ -34,50 +34,44 @@ Create folders in src/ :
 mkdir Components Pages scss
 ```
 
-The main.scss file:
+The styles.scss file:
 
 ```
-// THEORY:
-/*Om vi override bootstrap variables:
+// https://getbootstrap.com/docs/5.3/getting-started/vite/
+// https://vitejs.dev/guide/features.html#css-pre-processors
 
-1. //Bootstrap variable overrides (måste komma innan import bootstrap!):
-$body-bg: black; (tex)
-$body-color: white; (tex)
-
-2. //Import Bootastrap
-@import "../../node_modules/bootstrap/scss/bootstrap";
-
-3. //Import our own scss (could be several files)
-@import "./sticky-footer";
-@import "./body";
-*/
-
-// IMPLEMENTATION:
 // 1. Override bootstrap variables
+$body-bg: #e4b15f; // Set your desired background color
 
-// 2.  Bootstrap css
+// 2. Import bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
-//3. Our own css
+
+// Then add additional custom code here:
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+// Import your own SCSS files
 @import './sticky-footer.scss';
-@import './background.scss';
+@import '../Components/Accordion/Accordion.scss';
+
+// Additional global styles
+
+// * {
+//   box-sizing: border-box;
+// }
+
+// #root {
+//   font-family: 'Quicksand', sans-serif;
+
+//   color: #b4b4b8;
+//   background: radial-gradient(#b4b4b8, #f2e0c4);
+// }
 ```
 
-Do not forget to import the file in App.jsx
+import './scss/styles.scss';
 
-```
-import './scss/main.scss';
-```
-
----
-
-### Sticky footer:
-
-```
 touch sticky-footer.scss
-```
-
-The file:
 
 ```
 #root {
@@ -92,5 +86,3 @@ The file:
   flex-shrink: 0; /* This tells the browser that the footer should not shrink if there is not enough space */
 }
 ```
-
----
