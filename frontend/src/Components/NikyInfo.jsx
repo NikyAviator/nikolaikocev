@@ -2,7 +2,7 @@ import '../scss/styles.scss';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import nikyPic from '/pictures/niky.png';
 import linux from '/pictures/linux.png';
 import html from '/pictures/html-5.png';
@@ -147,10 +147,19 @@ const NikyInfo = () => {
         </Card.Text>
         <Button
           variant='dark'
+          alt='GitHub Link'
           href='https://github.com/NikyAviator'
           target='_blank'
         >
           <FontAwesomeIcon icon={faGithub} /> Visit GitHub
+        </Button>
+        <Button
+          variant='primary'
+          alt='LinkedIn Link'
+          href='https://www.linkedin.com/in/nikolai-kocev-33799167'
+          target='_blank'
+        >
+          <FontAwesomeIcon icon={faLinkedin} /> Visit LinkedIn
         </Button>
       </Card.Body>
     </Card>
