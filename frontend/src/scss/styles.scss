@@ -6,35 +6,12 @@ $body-bg: #e4b15f; // Set your desired background color
 @import '../../node_modules/bootstrap/scss/bootstrap';
 // Include any default variable overrides here (though functions won't be available)
 
-// Then add additional custom code here
+// Then add additional custom code here Like Google Fonts:
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
 // Import your own SCSS files
 @import './sticky-footer.scss';
 @import '../Components/Accordion/Accordion.scss';
 @import './nikyinfo.scss';
 @import './nikytextinfo.scss';
-// // Additional global styles
-// @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
-
-// Then override body background with a gradient
-// body {
-//   background: radial-gradient(
-//     circle,
-//     rgba(180, 180, 184, 1) 0%,
-//     rgba(242, 224, 196, 1) 100%
-//   );
-// }
-// * {
-//   box-sizing: border-box;
-// }
-
-// #root {
-//   font-family: 'Quicksand', sans-serif;
-
-//   color: #b4b4b8;
-//   background: radial-gradient(#b4b4b8, #f2e0c4);
-// }
-
-// .Card {
-//   // Custom styles for Card
-// }

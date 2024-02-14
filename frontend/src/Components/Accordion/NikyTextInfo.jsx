@@ -13,8 +13,8 @@ const NikyTextInfo = () => {
       }}
     >
       <Card.Body>
-        <Card.Title>About Me</Card.Title>
-        <Card.Text>
+        <Card.Title className=''>About Me</Card.Title>
+        <Card.Text className='sixtyfour-regular'>
           <p>
             My name is Nikolai Kocev, and I am a full-stack developer with a
             particular focus on JavaScript and Java.
@@ -29,10 +29,9 @@ const NikyTextInfo = () => {
           </p>
           <p>
             Throughout my journey in the realm of web development, I discovered
-            a a deep interest for technology, programming, and especially
-            GNU/Linux. I have spent countless hours exploring Linux
-            environments, which has strengthened my understanding of how systems
-            operate.
+            a deep interest for technology, programming, and especially Linux. I
+            have spent countless hours exploring Linux environments, which has
+            strengthened my understanding of how systems operate.
           </p>
           <p>
             My experience in aviation has also given me a unique perspective on
