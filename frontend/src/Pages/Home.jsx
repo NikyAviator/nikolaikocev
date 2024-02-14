@@ -2,21 +2,19 @@ import '../scss/styles.scss';
 import Container from 'react-bootstrap/esm/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-//import Accordion from '../Components/Accordion/Accordion';
 import NikyInfo from '../Components/NikyInfo';
+import NikyTextInfo from '../Components/Accordion/NikyTextInfo';
 
 const Home = () => {
   return (
     <>
       <Container>
-        {/* <Row className='my-3'>
-          <Col>
-            <h1>Hello from Home.jsx</h1>
-          </Col>
-        </Row> */}
         <Row>
-          <Col md={6} lg={6} sm={6}>
+          <Col md={4}>
             <NikyInfo />
+          </Col>
+          <Col md={8} className='my-2'>
+            <NikyTextInfo />
           </Col>
         </Row>
       </Container>

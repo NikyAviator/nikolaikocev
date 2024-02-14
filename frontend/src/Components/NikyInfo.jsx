@@ -146,13 +146,13 @@ const NikyInfo = () => {
           <hr />
         </Card.Text>
         <Button
-          className='my-2'
+          className='my-2 mx-3'
           variant='dark'
           alt='GitHub Link'
           href='https://github.com/NikyAviator'
           target='_blank'
         >
-          <FontAwesomeIcon icon={faGithub} /> Visit GitHub
+          <FontAwesomeIcon icon={faGithub} /> GitHub
         </Button>
         <Button
           variant='primary'
@@ -160,7 +160,7 @@ const NikyInfo = () => {
           href='https://www.linkedin.com/in/nikolai-kocev-33799167'
           target='_blank'
         >
-          <FontAwesomeIcon icon={faLinkedin} /> Visit LinkedIn
+          <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
         </Button>
       </Card.Body>
     </Card>
