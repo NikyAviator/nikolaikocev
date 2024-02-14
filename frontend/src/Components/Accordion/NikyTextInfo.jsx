@@ -4,7 +4,7 @@ import '../../scss/styles.scss';
 const NikyTextInfo = () => {
   return (
     <Card
-      className='bg-dark text-white'
+      className='bg-dark text-white niky-text-info-card'
       style={{
         padding: '20px',
         textAlign: 'justify',
@@ -42,9 +42,9 @@ const NikyTextInfo = () => {
             quickly adapt to new technologies and solve complex problems.
           </p>
           <p>
-            This knowledge, combined with my focus on JavaScript and Java, has
-            equipped me with the tools I need to build robust, efficient, and
-            user-friendly web solutions.
+            These experiences, combined with my focus on JavaScript and Java,
+            has equipped me with the tools I need to learn build robust,
+            efficient, and user-friendly web solutions.
           </p>
         </Card.Text>
       </Card.Body>
