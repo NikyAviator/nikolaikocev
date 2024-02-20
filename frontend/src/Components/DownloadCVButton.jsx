@@ -1,24 +1,18 @@
+import '../scss/styles.scss';
 import download from '/pictures/download.png';
 
 const DownloadCVButton = () => {
   return (
-    <div className='d-flex justify-content-center mt-4'>
-      {/* Use Bootstrap's grid system to control the button's width */}
-      <div className='col-8 col-md-8'>
-        {' '}
-        {/* This makes the button full width on smaller screens and 8/12 columns on medium screens and up */}
+    <div className='d-flex justify-content-center mt-4 download-cv-button-container'>
+      {/* Adjusted the column classes to be more responsive */}
+      <div className='col-12 col-sm-10 col-md-8 col-lg-8'>
         <a
           href='/pdf/Nikolai-Kocev-CV.pdf'
-          className='btn btn-dark btn-lg'
+          className='btn btn-dark btn-lg btn-download-cv niky-text-info protest-revolution-regular'
           role='button'
           download='Nikolai_Kocev_CV.pdf'
-          style={{ width: '100%', height: 'auto', padding: '10px 20px' }} // Adjust padding as needed for sizing
         >
-          <img
-            src={download}
-            alt='Download'
-            style={{ width: '48px', marginRight: '8px' }}
-          />
+          <img src={download} alt='Download' />
           Download my CV
         </a>
       </div>
