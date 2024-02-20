@@ -38,35 +38,26 @@ The styles.scss file:
 
 ```
 // https://getbootstrap.com/docs/5.3/getting-started/vite/
-// https://vitejs.dev/guide/features.html#css-pre-processors
-
-// 1. Override bootstrap variables
+// Custom.scss
+// Option A: Include all of Bootstrap
 $body-bg: #e4b15f; // Set your desired background color
 
-// 2. Import bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap';
+// Include any default variable overrides here (though functions won't be available)
 
-
-// Then add additional custom code here:
-
+// Then add additional custom code here Like Google Fonts:
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
 
 // Import your own SCSS files
 @import './sticky-footer.scss';
 @import '../Components/Accordion/Accordion.scss';
+@import '../Components/random-color/randomcolor.scss';
+@import '../Components/star-rating/starrating.scss';
+@import './nikyinfo.scss';
+@import './nikytextinfo.scss';
+@import './downloadcvbutton.scss';
 
-// Additional global styles
-
-// * {
-//   box-sizing: border-box;
-// }
-
-// #root {
-//   font-family: 'Quicksand', sans-serif;
-
-//   color: #b4b4b8;
-//   background: radial-gradient(#b4b4b8, #f2e0c4);
-// }
 ```
 
 import './scss/styles.scss';
