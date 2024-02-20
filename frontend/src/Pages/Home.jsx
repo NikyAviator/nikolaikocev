@@ -23,8 +23,9 @@ const Home = () => {
       </Container>
       <Container>
         <Row>
-          <Col md={4}>
-            <StarRating noOfStars={5} />
+          <Col className='my-3'>
+            <h1>More content coming soon!</h1>
+            <StarRating />
           </Col>
         </Row>
       </Container>
