@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import NikyInfo from '../Components/NikyInfo';
 import NikyTextInfo from '../Components/Accordion/NikyTextInfo';
 import DownloadCVButton from '../Components/DownloadCVButton';
+import StarRating from '../Components/star-rating/StarRating';
 
 const Home = () => {
   return (
@@ -17,6 +18,13 @@ const Home = () => {
           <Col md={8} className='my-3'>
             <NikyTextInfo />
             <DownloadCVButton />
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col md={4}>
+            <StarRating noOfStars={5} />
           </Col>
         </Row>
       </Container>
