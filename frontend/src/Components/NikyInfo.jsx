@@ -18,6 +18,8 @@ import raspberrypi from '/pictures/raspberry-pi.png';
 import openwrt from '/pictures/open-wrt.png';
 import vm from '/pictures/vm.png';
 import cloud from '/pictures/cloud.png';
+import react from '/pictures/react.png';
+import cc from '/pictures/cyber-security.png';
 
 const NikyInfo = () => {
   return (
@@ -61,6 +63,14 @@ const NikyInfo = () => {
             </li>
             <li>
               <img
+                src={react}
+                alt='React'
+                style={{ width: '32px', marginRight: '8px' }}
+              />{' '}
+              React
+            </li>
+            <li>
+              <img
                 src={java}
                 alt='Java'
                 style={{ width: '32px', marginRight: '8px' }}
@@ -101,6 +111,14 @@ const NikyInfo = () => {
                 style={{ width: '32px', marginRight: '8px' }}
               />{' '}
               Bash
+            </li>
+            <li>
+              <img
+                src={cc}
+                alt='Cyber Security'
+                style={{ width: '32px', marginRight: '8px' }}
+              />{' '}
+              Cyber Security
             </li>
             <li>
               <img
