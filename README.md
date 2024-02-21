@@ -4,24 +4,41 @@ Personal Website. Frontend and Backend:
 
 _Let's start with the frontend:_
 
-1. npm init vite@latest . (creates project in same folder)
-2. npm install bootstrap react react-bootstrap react-dom react-icons react-router-dom sass
+## Create the vite react project:
 
-To run: cd nikolaikocev/frontend/:
+1. npm init vite@latest . (creates project in same folder)
+
+## Installing Dependencies:
+
+Dependencies:
 
 ```
-npm run dev
+npm install @fortawesome/fontawesome-svg-core @fortawesome/free-brands-svg-icons @fortawesome/free-regular-svg-icons @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome bootstrap react react-bootstrap react-icons react-router-dom react-dom
+```
+
+Dev Dependencies:
+
+```
+npm install --save-dev @types/react @types/react-dom @vitejs/plugin-react eslint eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh less sass stylus vite
 ```
 
 OPTIONAL: X. npm install reactstrap (https://reactstrap.github.io/?path=/story/home-installation--page) X. npm install mdb-ui-kit (https://mdbootstrap.com/docs/standard/getting-started/installation/)
 
-_Also, public has been moved to root folder (frontend/public/)._
+## To run:
+
+To run: cd nikolaikocev/frontend/
+
+```
+npm run dev
+```
 
 ---
 
 # Customize:
 
 ### Cleanup and adding basic structure:
+
+_Also, public has been moved to root folder (frontend/public/). This is for your static files._
 
 Delete everything in src/, except:
 App.jsx & main.jsx
@@ -82,7 +99,7 @@ touch sticky-footer.scss
 
 # Docker:
 
-Welcome to the quick start guide for running Nikolai Kocev's frontend application. This application is containerized and available on Docker Hub, making it easy to download and run on any system with Docker installed.
+Welcome to the quick start guide for running nikolaikocev's frontend application. This application is containerized and available on Docker Hub, making it easy to download and run on any system with Docker installed.
 
 Prerequisites
 Docker installed on your machine. If you do not have Docker installed, please visit the Docker website for installation instructions.
@@ -97,7 +114,7 @@ First, pull the latest version of the application image from Docker Hub by execu
 docker pull eclair2093/nikyaviator-frontend:latest
 ```
 
-This command downloads the latest version of the Nikolai Kocev's frontend application image to your local machine.
+This command downloads the latest version of the nikolaikocev's frontend application image to your local machine.
 
 Run the Container: After pulling the image, you can run the application with the following command:
 
@@ -119,7 +136,7 @@ eclair2093/nikyaviator-frontend:latest:
 
 Open your web browser and navigate to http://localhost:8080.
 
-You should now see Nikolai Kocev's frontend application running.
+You should now see nikolaikocev frontend application running.
 
 ## Stopping the Application:
 
