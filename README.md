@@ -1,8 +1,26 @@
 # nikolaikocev
 
-Personal Website. Frontend and Backend:
+## Project Overview:
 
-_Let's start with the frontend:_
+**Hello!**
+
+_I'm excited to share some insights into the development of my personal website, a project that's not just a showcase of my skills but also a testament to my journey in software development. Currently, the project architecture is bifurcated into two main segments: the frontend and the backend. As of now, the backend is in its initial stages, poised for future expansions including the integration of blog functionality to enrich the site's content and user engagement._
+
+_The frontend, which is the heart of this project at the moment, is crafted using React alongside vanilla JavaScript, with Vite serving as the powerhouse builder. For styling, I've leaned into the robust capabilities of Bootstrap 5, ensuring a sleek and responsive design across all devices. Furthermore, embracing modern development practices, the entire frontend is dockerized, ensuring consistency across various development environments and simplifying deployment processes._
+
+_An exciting feature of this project is its hosting solution. Through the generous assistance of my friend, Adam Wamai Egesa, the site is currently hosted on Cloudflare, benefiting from its global CDN and web security services. This collaboration has been instrumental in bringing the project to life on the web._
+
+_Looking ahead, I am planning to expand the project's backend using Java and Spring Boot. This addition will not only introduce the ability to manage user logins but also pave the way for dynamic features such as a blog. This progression will mark a significant milestone in evolving the site from a static to a dynamic platform, offering a richer user experience._
+
+_Equally important to the project's technological stack is the documentation. The project's README.md serves as a comprehensive guide for anyone looking to construct a skeleton project utilizing Vite and React. This documentation is intended to streamline the setup process for similar projects, encapsulating the essence of building modern web applications with efficiency and ease._
+
+_In essence, this project is a living reflection of my evolving expertise in software development, showcasing a blend of current technologies and a vision for future enhancements. Stay tuned for the upcoming features and improvements as I continue to explore and integrate more functionalities into the website._
+
+_Kind regards,_
+
+_Nikolai Kocev_
+
+**Let's start with the frontend:**
 
 ## Create the vite react project:
 
