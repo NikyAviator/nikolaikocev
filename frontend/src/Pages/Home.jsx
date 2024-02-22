@@ -6,6 +6,7 @@ import NikyInfo from '../Components/NikyInfo';
 import NikyTextInfo from '../Components/Accordion/NikyTextInfo';
 import DownloadCVButton from '../Components/DownloadCVButton';
 import Accordion from '../Components/Accordion/Accordion';
+import AccordionEdu from '../Components/AccordionEdu/AccordionEdu';
 
 const Home = () => {
   return (
@@ -28,6 +29,9 @@ const Home = () => {
               My Work Experiences:
             </h1>
             <Accordion />
+            <hr />
+            <h1 className='d-flex justify-content-center'>My Education:</h1>
+            <AccordionEdu />
           </Col>
         </Row>
       </Container>
