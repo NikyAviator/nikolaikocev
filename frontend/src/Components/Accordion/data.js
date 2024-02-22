@@ -1,9 +1,14 @@
 const data = [
   {
     id: '1',
-    question: 'What are accordion components?',
+    question:
+      'Feb 2023- Aug 2023: Backend Developer - IKEA - Interaction Core ',
     answer:
-      'Accordion components are user interface elements used for organizing and presenting content in a collapsible manner. They typically consist of a header, content, and an expand/collapse action.',
+      'From February to April 2023, I interned at IKEA, during which I wrote a' +
+      'thesis on Redis vs. Bigtable, deepening my grasp on team-utilized' +
+      'technologies. Following this, I joined as a summer contractor from June to' +
+      'August 2023. Alongside two colleagues, we developed a Bigtable API.' +
+      ' Tech: JS, Python (Locust), Redis & Bigtable, Bash, Docker, GCP (Google Cloud Platform)',
   },
   {
     id: '2',

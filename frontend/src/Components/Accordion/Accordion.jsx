@@ -31,12 +31,12 @@ const Accordion = () => {
     <div className='acc-wrapper'>
       <Button
         onClick={() => setEnableMultiSelection(!enableMultiSelection)}
-        className='btn btn-primary'
+        className='btn btn-secondary d-block mx-auto my-3'
       >
         Enable multi-selection
       </Button>
 
-      <div className='accordion'>
+      <div className='bg-dark text-white accordion'>
         {data && data.length > 0 ? (
           data.map((dataItem) => (
             <div className='item' key={dataItem.id}>

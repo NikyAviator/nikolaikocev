@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import NikyInfo from '../Components/NikyInfo';
 import NikyTextInfo from '../Components/Accordion/NikyTextInfo';
 import DownloadCVButton from '../Components/DownloadCVButton';
-import StarRating from '../Components/star-rating/StarRating';
+import Accordion from '../Components/Accordion/Accordion';
 
 const Home = () => {
   return (
@@ -24,8 +24,8 @@ const Home = () => {
       <Container>
         <Row>
           <Col className='my-3'>
-            <h1>More content coming soon!</h1>
-            <StarRating />
+            <h1 className='d-flex justify-content-center'>My Experiences:</h1>
+            <Accordion />
           </Col>
         </Row>
       </Container>
