@@ -114,6 +114,14 @@ const NikyInfo = () => {
             </li>
             <li>
               <img
+                src={cloud}
+                alt='Cloud Computing'
+                style={{ width: '32px', marginRight: '8px' }}
+              />{' '}
+              Cloud Computing
+            </li>
+            <li>
+              <img
                 src={cc}
                 alt='Cyber Security'
                 style={{ width: '32px', marginRight: '8px' }}
@@ -130,19 +138,19 @@ const NikyInfo = () => {
             </li>
             <li>
               <img
+                src={openwrt}
+                alt='OpenWrt'
+                style={{ width: '32px', marginRight: '8px' }}
+              />{' '}
+              OpenWrt
+            </li>
+            <li>
+              <img
                 src={raspberrypi}
                 alt='Raspberry Pi'
                 style={{ width: '32px', marginRight: '8px' }}
               />{' '}
               Raspberry Pi
-            </li>
-            <li>
-              <img
-                src={openwrt}
-                alt='Raspberry Pi'
-                style={{ width: '32px', marginRight: '8px' }}
-              />{' '}
-              OpenWrt
             </li>
             <li>
               <img
@@ -152,15 +160,8 @@ const NikyInfo = () => {
               />{' '}
               Virtual Machines
             </li>
-            <li>
-              <img
-                src={cloud}
-                alt='Cloud Computing'
-                style={{ width: '32px', marginRight: '8px' }}
-              />{' '}
-              Cloud Computing
-            </li>
           </ul>
+
           <hr />
         </Card.Text>
         <Button
