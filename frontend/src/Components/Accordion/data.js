@@ -63,7 +63,7 @@ const data = [
     question:
       'Jan 2014 - Dec 2016: Refugee Caregiver - Flintevångsgården, Staffanstorp, Sweden.',
     answer:
-      'Took care of refugee kids who had just arrived in Sweden. I helped them with their school work, I cooked and cleaned for them. I also helped them to get used to the Swedish culture and language.',
+      'Took care of refugee kids who had just arrived in Sweden. I helped them with their school work, I cooked and cleaned for them. I also helped them to learn the Swedish culture and language.',
   },
 ];
 
