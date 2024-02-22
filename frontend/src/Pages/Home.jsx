@@ -24,7 +24,9 @@ const Home = () => {
       <Container>
         <Row>
           <Col className='my-3'>
-            <h1 className='d-flex justify-content-center'>My Experiences:</h1>
+            <h1 className='d-flex justify-content-center'>
+              My Work Experiences:
+            </h1>
             <Accordion />
           </Col>
         </Row>

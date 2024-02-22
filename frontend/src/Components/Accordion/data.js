@@ -34,13 +34,21 @@ const data = [
   {
     id: '5',
     question:
+      'Mar 2018 - Mar 2021: Flight Instructor PPL - Eslövs Flygklubb, Sweden.',
+    answer:
+      'Flight instructor, taught students to fly small airplanes (C172 and C152) in Eslöv,' +
+      ' Skåne. Also flew tour flights for people who wanted to experience flying and controlling the airplane.',
+  },
+  {
+    id: '6',
+    question:
       'Jan 2018 - Aug 2021: Flight Instructor PPL - Kristianstads Flygklubb, Sweden.',
     answer:
       'Flight instructor, taught students to fly small airplanes (PA28) in Kristianstad,' +
       ' Skåne. Also flew tour flights for people who wanted to experience flying and controlling the airplane.',
   },
   {
-    id: '6',
+    id: '7',
     question:
       'Jan 2017 - Dec 2020: Simulator Pilot - Entry Point North, Malmö, Sweden.',
     answer:
@@ -49,6 +57,13 @@ const data = [
       'controlled environment. This simulation provides a safe and effective way ' +
       'for students to develop the necessary skills and experience before ' +
       'entering the field. I was controlling the airplanes.',
+  },
+  {
+    id: '8',
+    question:
+      'Jan 2014 - Dec 2016: Refugee Caregiver - Flintevångsgården, Staffanstorp, Sweden.',
+    answer:
+      'Took care of refugee kids who had just arrived in Sweden. I helped them with their school work, I cooked and cleaned for them. I also helped them to get used to the Swedish culture and language.',
   },
 ];
 

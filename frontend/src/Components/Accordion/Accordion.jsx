@@ -34,8 +34,8 @@ const Accordion = () => {
         className='btn btn-secondary d-block mx-auto my-3'
       >
         {enableMultiSelection === false
-          ? 'Enable multi-selection'
-          : 'Disable multi-selection'}{' '}
+          ? 'Enable multi-selection:'
+          : 'Disable multi-selection:'}{' '}
       </Button>
 
       <div className='bg-dark text-white accordion'>
