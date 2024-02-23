@@ -35,7 +35,7 @@ const data = [
       'Jan 2013 - Sep 2013: South Sweden School of Aeronautics (SSSoA) - Malmö, Sweden.',
     answer:
       'These are the certificates I got during my time at SSSoA: ' +
-      'NQ (Night Qualification),IR (Instrument Rating), JAA CPL (Commercial Pilot License), ME (Multi Engine). ' +
+      'NQ (Night Qualification), IR (Instrument Rating), JAA CPL (Commercial Pilot License), ME (Multi Engine). ' +
       'https://www.southsweden.se/',
   },
   {
