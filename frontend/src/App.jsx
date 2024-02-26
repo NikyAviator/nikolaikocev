@@ -5,6 +5,8 @@ import Home from './Pages/Home.jsx';
 import Header from './Components/Header.jsx';
 import Footer from './Components/Footer';
 import RandomColor from './Components/random-color/RandomColor.jsx';
+import Images from './Pages/Images.jsx';
+
 function App() {
   return (
     <>
@@ -16,6 +18,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/randomcolor' element={<RandomColor />} />
+            <Route path='/imageslider' element={<Images />} />
           </Routes>
         </main>
         <footer>

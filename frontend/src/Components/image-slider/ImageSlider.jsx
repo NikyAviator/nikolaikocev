@@ -1,9 +1,12 @@
 import '../../scss/styles.scss';
 import { useState, useEffect } from 'react';
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from 'react-icons/bs';
-import { Container } from 'react-bootstrap';
 
-const ImageSlider = ({ url, limit = 5, page = 1 }) => {
+const ImageSlider = ({
+  url = `https://picsum.photos/v2/list`,
+  limit = 5,
+  page = 1,
+}) => {
   const [images, setImages] = useState([]);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [errorMsg, setErrorMsg] = useState(null);
@@ -40,7 +43,7 @@ const ImageSlider = ({ url, limit = 5, page = 1 }) => {
   }
 
   return (
-    <Container className='display'>
+    <div className='display'>
       <BsArrowLeftCircleFill className='arrow arrow-left' />
       {images && images.length
         ? images.map((imageItem) => (
@@ -61,7 +64,7 @@ const ImageSlider = ({ url, limit = 5, page = 1 }) => {
             ))
           : null}
       </span>
-    </Container>
+    </div>
   );
 };
 

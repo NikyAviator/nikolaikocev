@@ -7,7 +7,6 @@ import NikyTextInfo from '../Components/Accordion/NikyTextInfo';
 import DownloadCVButton from '../Components/DownloadCVButton';
 import Accordion from '../Components/Accordion/Accordion';
 import AccordionEdu from '../Components/AccordionEdu/AccordionEdu';
-import ImageSlider from '../Components/image-slider/ImageSlider';
 
 const Home = () => {
   return (
@@ -20,11 +19,6 @@ const Home = () => {
           <Col md={8} className='my-3'>
             <NikyTextInfo />
             <DownloadCVButton />
-            {/* <ImageSlider
-              url='https://picsum.photos/v2/list'
-              limit={'10'}
-              page={'1'}
-            /> */}
           </Col>
         </Row>
       </Container>
