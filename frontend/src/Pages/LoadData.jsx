@@ -7,8 +7,10 @@ import LoadMoreData from '../Components/load-more-data/LoadMoreData';
 const LoadData = () => {
   return (
     <>
-      <h1>Hello and Welcome to: Load More Data!</h1>
-      <LoadMoreData />
+      <Container>
+        <h1>Load More Data - Work in progress!!</h1>
+        <LoadMoreData />
+      </Container>
     </>
   );
 };
