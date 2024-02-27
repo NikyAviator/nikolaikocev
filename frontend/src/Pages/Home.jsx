@@ -26,7 +26,7 @@ const Home = () => {
         <Row>
           <Col className='my-3'>
             <h1 className='d-flex justify-content-center'>
-              My Work Experiences:
+              My Work Experience:
             </h1>
             <Accordion />
             <hr />
