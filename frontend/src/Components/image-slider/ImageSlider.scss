@@ -1,10 +1,10 @@
 .display {
   // position: relative;
-  display: flex;
+  //display: flex;
   // justify-content: flex-end;
-  align-items: baseline;
-  width: 300px;
-  height: 300px;
+  //align-items: baseline;
+  width: 600px;
+  height: 450px;
 }
 
 .current-image {
@@ -15,4 +15,38 @@
 }
 
 .arrow {
+  width: 2rem;
+  height: 2rem;
+  color: #fff;
+}
+
+.arrow-left {
+  left: 1rem;
+}
+
+.arrow-right {
+  left: 1rem;
+}
+
+.circle-indicators {
+  bottom: 1rem;
+}
+
+.current-indicator {
+  background-color: #fff;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+
+.hide-current-image {
+  display: none;
+}
+
+.inactive-indicator {
+  background-color: grey;
 }

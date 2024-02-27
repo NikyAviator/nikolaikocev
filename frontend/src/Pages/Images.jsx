@@ -12,7 +12,7 @@ const Images = () => {
           <p>These are some image sliders. Fetched from an api.</p>
           <ImageSlider
             url='https://picsum.photos/v2/list'
-            limit={'2'}
+            limit={'10'}
             page={'1'}
           />
         </Col>
