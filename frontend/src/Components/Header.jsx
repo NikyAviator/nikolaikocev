@@ -14,7 +14,7 @@ function Header() {
             <Nav.Link href='/'>Home</Nav.Link>
             <Nav.Link href='/randomcolor'>Random Color</Nav.Link>
             <Nav.Link href='/imageslider'>Image Slider</Nav.Link>
-            {/*<Nav.Link href='/contactme'>Contact me</Nav.Link>*/}
+            <Nav.Link href='/loadmoredata'>Load More Data</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

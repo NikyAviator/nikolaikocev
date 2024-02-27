@@ -6,6 +6,7 @@ import Header from './Components/Header.jsx';
 import Footer from './Components/Footer';
 import RandomColor from './Components/random-color/RandomColor.jsx';
 import Images from './Pages/Images.jsx';
+import LoadData from './Pages/LoadData.jsx';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='/randomcolor' element={<RandomColor />} />
             <Route path='/imageslider' element={<Images />} />
+            <Route path='/loadmoredata' element={<LoadData />} />
           </Routes>
         </main>
         <footer>
