@@ -1,14 +1,14 @@
 import '../../scss/styles.scss';
 import MenuItem from './menu-item';
 
+// eslint-disable-next-line react/prop-types
 const MenuList = ({ list = [] }) => {
   return (
-    <div className='menu-list-container'>
-      <p>MenuList + map:</p>
+    <ul className='menu-list-container'>
       {list && list.length > 0
         ? list.map((listItem) => <MenuItem key={list.label} item={listItem} />)
         : null}
-    </div>
+    </ul>
   );
 };
 
