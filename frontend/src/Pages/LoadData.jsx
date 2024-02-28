@@ -8,7 +8,8 @@ const LoadData = () => {
   return (
     <>
       <Container>
-        <h1>Load More Data - Work in progress!!</h1>
+        <h1>Load More Data - A small React component</h1>
+        <p></p>
         <LoadMoreData />
       </Container>
     </>

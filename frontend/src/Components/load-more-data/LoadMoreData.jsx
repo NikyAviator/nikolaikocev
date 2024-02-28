@@ -6,6 +6,7 @@ const LoadMoreData = () => {
   const [products, setProducts] = useState([]);
   // för att hålla koll hur många gånger användaren har klickat på knappen "load more"
   const [count, setCount] = useState(0);
+  const [disableButton, setDisableButton] = useState(false);
 
   // The data for this component is fetched from the dummyjson.com
   // https://dummyjson.com/docs/products - I worked with Limit and skip products params.
@@ -20,7 +21,7 @@ const LoadMoreData = () => {
       const result = await reponse.json();
 
       if (result && result.products && result.products.length) {
-        setProducts(result.products);
+        setProducts((prevData) => [...prevData, ...result.products]);
         setLoading(false);
       }
       console.log(result);
@@ -32,14 +33,18 @@ const LoadMoreData = () => {
 
   useEffect(() => {
     fetchProducts();
-  }, []);
+  }, [count]);
+
+  useEffect(() => {
+    if (products.length === 100) setDisableButton(true);
+  }, [products]);
 
   if (loading) {
     return <div>Data loading...</div>;
   }
 
   return (
-    <div className='display'>
+    <div className='load-more-container'>
       <div className='product-container'>
         {products && products.length
           ? products.map((item) => (
@@ -51,7 +56,13 @@ const LoadMoreData = () => {
           : null}
       </div>
       <div>
-        <button>Load More Data</button>
+        <button disabled={disableButton} onClick={() => setCount(count + 1)}>
+          Load More Data
+        </button>
+        {
+          // Om disableButton är true, visa texten "No more data to load"
+          disableButton ? <p>No more data to load...</p> : null
+        }
       </div>
     </div>
   );
