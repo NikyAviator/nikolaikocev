@@ -24,6 +24,9 @@ function Header() {
               <NavDropdown.Item href='/loadmoredata'>
                 Load More Data
               </NavDropdown.Item>
+              <NavDropdown.Item href='/treeview'>
+                Tree View Sidebar
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
