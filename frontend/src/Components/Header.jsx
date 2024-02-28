@@ -2,6 +2,7 @@ import '../scss/styles.scss';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Header() {
   return (
@@ -12,9 +13,18 @@ function Header() {
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='ms-auto'>
             <Nav.Link href='/'>Home</Nav.Link>
-            <Nav.Link href='/randomcolor'>Random Color</Nav.Link>
-            <Nav.Link href='/imageslider'>Image Slider</Nav.Link>
-            <Nav.Link href='/loadmoredata'>Load More Data</Nav.Link>
+
+            <NavDropdown title='React Micro Projects' id='basic-nav-dropdown'>
+              <NavDropdown.Item href='/randomcolor'>
+                Random Color
+              </NavDropdown.Item>
+              <NavDropdown.Item href='/imageslider'>
+                Image Slider
+              </NavDropdown.Item>
+              <NavDropdown.Item href='/loadmoredata'>
+                Load More Data
+              </NavDropdown.Item>
+            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Container>
