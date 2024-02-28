@@ -20,6 +20,7 @@ import vm from '/pictures/vm.png';
 import cloud from '/pictures/cloud.png';
 import react from '/pictures/react.png';
 import cc from '/pictures/cyber-security.png';
+import ai from '/pictures/ai.png';
 
 const NikyInfo = () => {
   return (
@@ -104,6 +105,14 @@ const NikyInfo = () => {
           </ul>
           <p>Interests:</p>
           <ul>
+            <li>
+              <img
+                src={ai}
+                alt='Artificial Intelligence'
+                style={{ width: '32px', marginRight: '8px' }}
+              />{' '}
+              Artificial Intelligence
+            </li>
             <li>
               <img
                 src={bash}
