@@ -9,6 +9,7 @@ import Images from './Pages/Images.jsx';
 import LoadData from './Pages/LoadData.jsx';
 import TreeViewPage from './Pages/TreeViewPage.jsx';
 import QrCodePage from './Pages/QrCodePage.jsx';
+import LightDarkPage from './Pages/LightDarkPage.jsx';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path='/loadmoredata' element={<LoadData />} />
             <Route path='/treeview' element={<TreeViewPage />} />
             <Route path='/qrcode' element={<QrCodePage />} />
+            <Route path='/toggletheme' element={<LightDarkPage />} />
           </Routes>
         </main>
         <footer>

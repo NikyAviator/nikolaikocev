@@ -1,5 +1,5 @@
 import '../scss/styles.scss';
-import Container from 'react-bootstrap/esm/Container';
+import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import ImageSlider from '../Components/image-slider/ImageSlider';

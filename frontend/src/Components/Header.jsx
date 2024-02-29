@@ -30,6 +30,9 @@ function Header() {
               <NavDropdown.Item href='/qrcode'>
                 Qr Code Generator
               </NavDropdown.Item>
+              <NavDropdown.Item href='/toggletheme'>
+                Toggle Theme Page
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

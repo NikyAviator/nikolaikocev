@@ -1,5 +1,5 @@
 import '../scss/styles.scss';
-import Container from 'react-bootstrap/esm/Container';
+import Container from 'react-bootstrap/Container';
 import LoadMoreData from '../Components/load-more-data/LoadMoreData';
 
 const LoadData = () => {
