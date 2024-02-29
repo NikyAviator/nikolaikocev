@@ -27,6 +27,9 @@ function Header() {
               <NavDropdown.Item href='/treeview'>
                 Tree View Sidebar
               </NavDropdown.Item>
+              <NavDropdown.Item href='/qrcode'>
+                Qr Code Generator
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

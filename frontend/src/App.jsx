@@ -8,6 +8,7 @@ import RandomColor from './Components/random-color/RandomColor.jsx';
 import Images from './Pages/Images.jsx';
 import LoadData from './Pages/LoadData.jsx';
 import TreeViewPage from './Pages/TreeViewPage.jsx';
+import QrCodePage from './Pages/QrCodePage.jsx';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path='/imageslider' element={<Images />} />
             <Route path='/loadmoredata' element={<LoadData />} />
             <Route path='/treeview' element={<TreeViewPage />} />
+            <Route path='/qrcode' element={<QrCodePage />} />
           </Routes>
         </main>
         <footer>
