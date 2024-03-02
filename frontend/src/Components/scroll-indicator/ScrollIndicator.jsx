@@ -29,9 +29,44 @@ const ScrollIndicator = ({ url }) => {
     fetchData(url);
   }, [url]);
 
+  const handleScrollPercentage = () => {
+    const howMuchScrolled =
+      document.body.scrollTop || document.documentElement.scrollTop; // for cross-browser compatibility. document.documentElement.scrollTop is for IE
+
+    const height =
+      document.documentElement.scrollHeight -
+      document.documentElement.clientHeight;
+
+    setScrollPercentage(Math.round((howMuchScrolled / height) * 100));
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScrollPercentage);
+
+    return () => {
+      window.removeEventListener('scroll', () => {}); // This is a cleanup function, which runs when the component is unmounted
+    };
+  }, [scrollPercentage]);
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (errorMsg) {
+    return <div>Error occured: {errorMsg}</div>;
+  }
+
   return (
     <>
-      <h1>Custom Scroll Indicator</h1>
+      <div className='top-container'>
+        <h1>Custom Scroll Indicator</h1>
+        <div className='scroll-indicator'>
+          <div
+            className='current-progress'
+            style={{ width: `${scrollPercentage}` }}
+          ></div>
+        </div>
+      </div>
       <div className='data-container'>
         {data && data.length > 0
           ? data.map((dataItem, index) => (
