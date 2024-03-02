@@ -6,8 +6,8 @@ const ScrollIndicatorPage = () => {
   return (
     <>
       <Container>
-        <h1>Welcome to Scroll Indicator!</h1>
-        <ScrollIndicator url='https://dummyjson.com/products' />
+        <h1>Welcome to Scroll Indicator! Under progress!</h1>
+        <ScrollIndicator url={'https://dummyjson.com/products?limit=100'} />
       </Container>
     </>
   );

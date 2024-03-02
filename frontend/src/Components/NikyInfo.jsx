@@ -25,7 +25,7 @@ import ai from '/pictures/ai.png';
 const NikyInfo = () => {
   return (
     <Card className='Card' style={{ width: '18rem' }}>
-      <Card.Img variant='top' src={nikyPic} />
+      <Card.Img variant='top' src={nikyPic} alt='Picture of Nikolai Kocev' />
       <Card.Body>
         <Card.Title>Nikolai Kocev</Card.Title>
         <Card.Text>
