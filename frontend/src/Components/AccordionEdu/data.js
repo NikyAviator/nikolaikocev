@@ -20,7 +20,7 @@ const data = [
     id: '3',
     question: '2014 - 2017: FI(A) R, PPL, SSSoA - Malmö, Sweden.',
     answer:
-      'I know it took a long time to complete, life happens. I finally got my ceritifcate and began teaching people to fly in Eslöv and Kristianstad.',
+      'I it took a long time to complete, life happens. I finally got my ceritifcate and began teaching people to fly in Eslöv and Kristianstad.',
   },
   {
     id: '4',

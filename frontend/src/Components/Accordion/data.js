@@ -4,9 +4,9 @@ const data = [
     question:
       'Feb 2023 - Aug 2023: Backend Developer - IKEA - Interaction Core ',
     answer:
-      'From February to April 2023, I interned at IKEA, during which I wrote a' +
-      'thesis on Redis vs. Bigtable, deepening my grasp on team-utilized' +
-      'technologies. Following this, I joined as a summer contractor from June to' +
+      'From February to April 2023, I interned at IKEA, during which I wrote a ' +
+      'thesis on Redis vs. Bigtable, deepening my grasp on team-utilized ' +
+      'technologies. Following this, I joined as a summer contractor from June to ' +
       'August 2023. Alongside two colleagues, we developed a Bigtable API.' +
       ' Tech: JavaScript, Python (Locust), Redis & Bigtable, Bash, Docker, GCP (Google Cloud Platform)',
   },
@@ -63,7 +63,7 @@ const data = [
     question:
       'Jan 2014 - Dec 2016: Refugee Caregiver - Flintevångsgården, Staffanstorp, Sweden.',
     answer:
-      'Took care of refugee kids who had just arrived in Sweden. I helped them with their school work, I cooked and cleaned for them. I also helped them to learn the Swedish culture and language.',
+      'Took care of refugee kids who had just arrived in Sweden. I helped them with their school work and errands. I also helped them to learn the Swedish culture and language.',
   },
 ];
 
