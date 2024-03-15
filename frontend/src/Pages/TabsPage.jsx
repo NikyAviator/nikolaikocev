@@ -2,7 +2,7 @@ import '../scss/styles.scss';
 import { Container } from 'react-bootstrap';
 import TabTest from '../Components/custom-tabs/TabTest';
 
-const TabsPages = () => {
+const TabsPage = () => {
   return (
     <Container>
       <TabTest />
@@ -10,4 +10,4 @@ const TabsPages = () => {
   );
 };
 
-export default TabsPages;
+export default TabsPage;
