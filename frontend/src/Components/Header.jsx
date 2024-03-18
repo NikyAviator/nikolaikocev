@@ -36,7 +36,9 @@ function Header() {
               <NavDropdown.Item href='/scrollindicator'>
                 Custom Scroll Indicator
               </NavDropdown.Item>
-              <NavDropdown.Item href='/tabs'>Custom Tabs Page</NavDropdown.Item>
+              <NavDropdown.Item href='/tabs'>
+                Custom Tabs & Modal
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
