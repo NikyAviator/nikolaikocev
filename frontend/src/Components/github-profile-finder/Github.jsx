@@ -14,7 +14,7 @@ const Github = () => {
 
   useEffect(() => {
     fetchGitHubProfile(userName);
-  }, []);
+  }, [userName]);
 
   return (
     <div className='github-profile-container'>
@@ -22,11 +22,11 @@ const Github = () => {
         <input
           name='search-by-username'
           type='text'
-          placeholder='Enter Github Username'
+          placeholder='Enter Github user name'
           value={userName}
           onChange={(e) => setUserName(e.target.value)}
         />
-        <Button onClick={handleClick}></Button>
+        <Button onClick={handleClick}>Search!</Button>
       </div>
     </div>
   );

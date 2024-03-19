@@ -39,6 +39,9 @@ function Header() {
               <NavDropdown.Item href='/tabs'>
                 Custom Tabs & Modal
               </NavDropdown.Item>
+              <NavDropdown.Item href='/githubprofiler'>
+                Search Github Profiles
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

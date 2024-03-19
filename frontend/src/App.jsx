@@ -12,7 +12,7 @@ import QrCodePage from './Pages/QrCodePage.jsx';
 import LightDarkPage from './Pages/LightDarkPage.jsx';
 import ScrollIndicatorPage from './Pages/ScrollIndicatorPage.jsx';
 import TabsPage from './Pages/TabsPage.jsx';
-
+import GithubProfilePage from './Pages/GithubProfilePage.jsx';
 function App() {
   return (
     <>
@@ -31,6 +31,7 @@ function App() {
             <Route path='/toggletheme' element={<LightDarkPage />} />
             <Route path='/scrollindicator' element={<ScrollIndicatorPage />} />
             <Route path='/tabs' element={<TabsPage />} />
+            <Route path='/githubprofiler' element={<GithubProfilePage />} />
           </Routes>
         </main>
         <footer>
