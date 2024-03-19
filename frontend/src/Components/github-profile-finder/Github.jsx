@@ -21,6 +21,7 @@ const Github = () => {
     if (data) {
       setUserData(data);
       setLoading(false);
+      setUserName('');
     }
   };
 
@@ -44,7 +45,7 @@ const Github = () => {
         />
         <Button onClick={handleClick}>Search!</Button>
       </div>
-      {userData && <User user={userData} />}
+      {userData !== null ? <User user={userData} /> : null}
     </div>
   );
 };

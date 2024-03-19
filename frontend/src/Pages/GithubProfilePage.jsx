@@ -5,7 +5,7 @@ import Github from '../Components/github-profile-finder/Github';
 const GithubProfilePage = () => {
   return (
     <Container>
-      <h1>Github Profile Finder. Under construction!</h1>
+      <h1>Github Profile Finder. Search on Github user names!</h1>
       <Github />
     </Container>
   );
