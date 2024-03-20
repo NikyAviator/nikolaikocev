@@ -42,6 +42,9 @@ function Header() {
               <NavDropdown.Item href='/githubprofiler'>
                 Search Github Profiles
               </NavDropdown.Item>
+              <NavDropdown.Item href='/search'>
+                Search Autocomplete API
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
