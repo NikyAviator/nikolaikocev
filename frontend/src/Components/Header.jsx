@@ -43,7 +43,7 @@ function Header() {
                 Search Github Profiles
               </NavDropdown.Item>
               <NavDropdown.Item href='/search'>
-                Auto complete search with an API
+                Auto search + API
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
