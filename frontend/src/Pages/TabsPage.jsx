@@ -8,7 +8,7 @@ const TabsPage = () => {
     <Container>
       <TabTest />
       <hr />
-      <h1>Custom Modal Popup (in progress...):</h1>
+      <h1>Custom Modal Popup (css needs work):</h1>
       <ModalTest />
     </Container>
   );
