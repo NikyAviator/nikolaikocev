@@ -9,7 +9,7 @@ const TTTPage = () => {
     <Container>
       <Row>
         <Col>
-          <h1>test</h1>
+          <h1>Tic Tac Toe (luffarschack). Under construction!</h1>
           <TicTacToe />
         </Col>
       </Row>
