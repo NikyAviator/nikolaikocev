@@ -13,6 +13,8 @@ import ScrollIndicatorPage from './Pages/ScrollIndicatorPage.jsx';
 import TabsPage from './Pages/TabsPage.jsx';
 import GithubProfilePage from './Pages/GithubProfilePage.jsx';
 import SearchPage from './Pages/SearchPage.jsx';
+import TicTacToe from './Components/tic-tac-toe/TicTacToe.jsx';
+
 function App() {
   return (
     <>
@@ -33,6 +35,7 @@ function App() {
             <Route path='/tabs' element={<TabsPage />} />
             <Route path='/githubprofiler' element={<GithubProfilePage />} />
             <Route path='/search' element={<SearchPage />} />
+            <Route path='/tictactoe' element={<TicTacToe />} />
           </Routes>
         </main>
         <footer>

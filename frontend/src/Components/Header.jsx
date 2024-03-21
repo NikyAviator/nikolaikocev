@@ -45,6 +45,9 @@ function Header() {
               <NavDropdown.Item href='/search'>
                 Auto search + API
               </NavDropdown.Item>
+              <NavDropdown.Item href='/tictactoe'>
+                Play Tic Tac Toe
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

@@ -1,5 +1,5 @@
 import '../scss/styles.scss';
-import { Container } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
 import TabTest from '../Components/custom-tabs/TabTest';
 import ModalTest from '../Components/custom-modal/ModalTest';
 
