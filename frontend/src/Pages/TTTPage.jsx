@@ -1,12 +1,18 @@
 import '../scss/styles.scss';
-import { Row, Col, Container } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import TicTacToe from '../Components/tic-tac-toe/TicTacToe';
 
 const TTTPage = () => {
   return (
     <Container>
-      <h1>Play Tic Tac Toe, TTTPage</h1>
-      <TicTacToe />
+      <Row>
+        <Col>
+          <h1>test</h1>
+          <TicTacToe />
+        </Col>
+      </Row>
     </Container>
   );
 };

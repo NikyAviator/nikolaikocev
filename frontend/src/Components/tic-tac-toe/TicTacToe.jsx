@@ -1,7 +1,7 @@
 import '../../scss/styles.scss';
 
 const TicTacToe = () => {
-  return <>TicTacToe Component</>;
+  return <div>TicTacToe Component</div>;
 };
 
 export default TicTacToe;
