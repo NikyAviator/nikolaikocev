@@ -16,18 +16,20 @@ const Square = ({ value, onClick }) => {
 // 0 1 2
 // 3 4 5
 // 6 7 8
-
+// Main Component in the file. This is the game board.
 const TicTacToe = () => {
   const [squares, setSquares] = useState(Array(9).fill(''));
   const [xIsNext, setXIsNext] = useState(true);
-  console.log(squares);
 
   const handleClick = (getCurrentSquare) => {
     let cpySquares = [...squares];
+    // cpySquares för att inte mutera orginalet, X eller O beroende på xIsNext.
     cpySquares[getCurrentSquare] = xIsNext ? 'X' : 'O';
     setXIsNext(!xIsNext);
     setSquares(cpySquares);
   };
+
+  console.log(squares);
 
   return (
     <div className='tic-tac-toe-container'>
