@@ -51,6 +51,10 @@ function Header() {
               <NavDropdown.Item href='/ffpage'>
                 Feature Flag Page
               </NavDropdown.Item>
+              <hr />
+              <NavDropdown.Item href='/customhooks'>
+                Custom Hooks
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

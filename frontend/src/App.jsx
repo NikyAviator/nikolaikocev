@@ -15,7 +15,7 @@ import GithubProfilePage from './Pages/GithubProfilePage.jsx';
 import SearchPage from './Pages/SearchPage.jsx';
 import TTTPage from './Pages/TTTPage.jsx';
 import FeatureFlagPage from './Pages/FeatureFlagPage.jsx';
-
+import CustomHooksPage from './Pages/CustomHooksPage.jsx';
 function App() {
   return (
     <>
@@ -38,6 +38,7 @@ function App() {
             <Route path='/search' element={<SearchPage />} />
             <Route path='/tictactoe' element={<TTTPage />} />
             <Route path='/ffpage' element={<FeatureFlagPage />} />
+            <Route path='/customhooks' element={<CustomHooksPage />} />
           </Routes>
         </main>
         <footer>

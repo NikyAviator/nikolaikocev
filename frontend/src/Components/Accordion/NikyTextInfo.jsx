@@ -16,13 +16,12 @@ const NikyTextInfo = () => {
         <Card.Title className=''>About Me</Card.Title>
         <Card.Text className='sixtyfour-regular'>
           <p>
-            My name is Nikolai Kocev, and I am a full-stack developer with a
-            particular focus on JavaScript and Java.
+            My name is Nikolai Kocev, and I am a junior full-stack developer
+            with a particular focus on JavaScript and Java.
           </p>
           <p>
-            My professional journey has taken a fascinating turn; I began my
-            career as a flight instructor, where I taught the art of navigating
-            the skies. Through this experience, I developed a strong
+            I began my career as a flight instructor, where I taught the art of
+            navigating the skies. Through this experience, I developed a strong
             appreciation for details, accuracy, and a continuous pursuit of
             knowledge. These traits became foundational and very useful when I
             decided to transition into web development.
