@@ -1,9 +1,9 @@
 // 1 Skriv först datan
 const dummyApiResponse = {
-  showStarRating: true,
+  showStarRating: false,
   showTicTacToe: true,
   showRandomColor: true,
-  showQrCodeGenerator: false,
+  showQrCodeGenerator: true,
   showTreeView: true,
 };
 

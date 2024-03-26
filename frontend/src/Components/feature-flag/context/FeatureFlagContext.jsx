@@ -12,11 +12,15 @@ export default function FeatureFlagGlobalState({ children }) {
 
   async function fetchFeatureFlags() {
     try {
+      setLoading(true);
       // data.js dummy call to simulate API call
       const reponse = await getFeatureFlags();
       console.log(reponse);
+      setEnabledFlags(reponse);
+      setLoading(false);
     } catch (error) {
       console.log(error);
+      setLoading(false);
       throw new Error('Error fetching feature flags.');
     }
   }
@@ -26,7 +30,7 @@ export default function FeatureFlagGlobalState({ children }) {
   }, []);
 
   return (
-    <FeatureFlagContext.Provider value={{}}>
+    <FeatureFlagContext.Provider value={{ loading, enabledFlags }}>
       {children}
     </FeatureFlagContext.Provider>
   );
