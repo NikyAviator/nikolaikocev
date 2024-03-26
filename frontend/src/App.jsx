@@ -14,6 +14,7 @@ import TabsPage from './Pages/TabsPage.jsx';
 import GithubProfilePage from './Pages/GithubProfilePage.jsx';
 import SearchPage from './Pages/SearchPage.jsx';
 import TTTPage from './Pages/TTTPage.jsx';
+import FeatureFlagPage from './Pages/FeatureFlagPage.jsx';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
             <Route path='/githubprofiler' element={<GithubProfilePage />} />
             <Route path='/search' element={<SearchPage />} />
             <Route path='/tictactoe' element={<TTTPage />} />
+            <Route path='/ffpage' element={<FeatureFlagPage />} />
           </Routes>
         </main>
         <footer>

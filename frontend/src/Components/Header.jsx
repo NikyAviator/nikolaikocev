@@ -48,6 +48,9 @@ function Header() {
               <NavDropdown.Item href='/tictactoe'>
                 Play Tic Tac Toe
               </NavDropdown.Item>
+              <NavDropdown.Item href='/ffpage'>
+                Feature Flag Page
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
