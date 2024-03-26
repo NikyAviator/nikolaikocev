@@ -9,8 +9,8 @@ const dummyApiResponse = {
 function getFeatureFlags() {
   return new Promise((resolve, reject) => {
     // Simulate API call
-    if (dummyApiResponse) resolve.setTimeout(resolve(dummyApiResponse), 500);
-    else reject('Error fetching feature flags');
+    if (dummyApiResponse) setTimeout(resolve(dummyApiResponse), 500);
+    else reject('Error fetching feature flags.');
   });
 }
 
