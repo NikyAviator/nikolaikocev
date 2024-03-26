@@ -1,3 +1,4 @@
+// 3 FF är sist implementerad.
 import '../../scss/styles.scss';
 
 const FeatureFlags = () => {

@@ -1,3 +1,4 @@
+// 1 Skriv först datan
 const dummyApiResponse = {
   showStarRating: true,
   showTicTacToe: true,

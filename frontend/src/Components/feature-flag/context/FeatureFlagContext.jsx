@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+// 2 Skriv sen FFContext.jsx
 import { createContext } from 'react';
 
 export const FeatureFlagContext = createContext(null);
