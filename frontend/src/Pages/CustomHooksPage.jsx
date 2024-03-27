@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import UseFetchHook from '../Components/use-fetch/test';
+import UseClickOutside from '../Components/use-outside-click/test';
 const CustomHooksPage = () => {
   return (
     <Container>
@@ -34,7 +35,7 @@ const CustomHooksPage = () => {
       </Row>
       <Row>
         <Col>
-          <h2>Custom Hooks Example</h2>
+          <h2>1st custom fetch hook example:</h2>
           <p>
             In this example, we will create a custom hook that fetches data from
             an API. We will use the custom hook to fetch data from the
@@ -48,6 +49,19 @@ const CustomHooksPage = () => {
             any error that occurred during the request.
           </p>
           <UseFetchHook />
+        </Col>
+      </Row>
+      <hr />
+      <Row>
+        <Col>
+          <h2>2nd custom click outside hook example:</h2>
+          <p>
+            In this example, we will create a custom hook that allows us to
+            detect clicks outside of a specified element. We will use the custom
+            hook to show and hide a piece of content when the user clicks
+            outside of it.
+          </p>
+          <UseClickOutside />
         </Col>
       </Row>
     </Container>
