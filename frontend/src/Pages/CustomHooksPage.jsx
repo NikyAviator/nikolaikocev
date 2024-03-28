@@ -4,6 +4,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import UseFetchHook from '../Components/use-fetch/test';
 import UseClickOutside from '../Components/use-outside-click/test';
+import UseWindowResizeTest from '../Components/use-window-resize/test';
+
 const CustomHooksPage = () => {
   return (
     <Container>
@@ -35,7 +37,7 @@ const CustomHooksPage = () => {
       </Row>
       <Row>
         <Col>
-          <h2>1st custom fetch hook example:</h2>
+          <h2>1st custom hook: Fetch :</h2>
           <p>
             In this example, we will create a custom hook that fetches data from
             an API. We will use the custom hook to fetch data from the
@@ -54,7 +56,7 @@ const CustomHooksPage = () => {
       <hr />
       <Row>
         <Col>
-          <h2>2nd custom click outside hook example:</h2>
+          <h2>2nd custom hook: Click outside:</h2>
           <p>
             In this example, we will create a custom hook that allows us to
             detect clicks outside of a specified element. We will use the custom
@@ -62,6 +64,18 @@ const CustomHooksPage = () => {
             outside of it.
           </p>
           <UseClickOutside />
+        </Col>
+      </Row>
+      <hr />
+      <Row>
+        <Col>
+          <h2>3rd custom hook: Use Window Resize:</h2>
+          <p>
+            In this example, we will create a custom hook that allows us to
+            detect window resize events. We will use the custom hook to display
+            the width and height of the window as it is resized.
+          </p>
+          <UseWindowResizeTest />
         </Col>
       </Row>
     </Container>
