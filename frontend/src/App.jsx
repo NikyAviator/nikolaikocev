@@ -16,6 +16,7 @@ import SearchPage from './Pages/SearchPage.jsx';
 import TTTPage from './Pages/TTTPage.jsx';
 import FeatureFlagPage from './Pages/FeatureFlagPage.jsx';
 import CustomHooksPage from './Pages/CustomHooksPage.jsx';
+import ScrollToTopAndBottomPage from './Pages/ScrollToTopAndBottomPage.jsx';
 function App() {
   return (
     <>
@@ -39,6 +40,10 @@ function App() {
             <Route path='/tictactoe' element={<TTTPage />} />
             <Route path='/ffpage' element={<FeatureFlagPage />} />
             <Route path='/customhooks' element={<CustomHooksPage />} />
+            <Route
+              path='/scrolltopbottom'
+              element={<ScrollToTopAndBottomPage />}
+            />
           </Routes>
         </main>
         <footer>
