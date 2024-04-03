@@ -54,6 +54,9 @@ function Header() {
               <NavDropdown.Item href='/scrolltopbottom'>
                 Scroll To Top & Bottom
               </NavDropdown.Item>
+              <NavDropdown.Item href='/scrolltosection'>
+                Scroll To Section
+              </NavDropdown.Item>
               <hr />
               <NavDropdown.Item href='/customhooks'>
                 Custom Hooks

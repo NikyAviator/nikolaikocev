@@ -17,6 +17,7 @@ import TTTPage from './Pages/TTTPage.jsx';
 import FeatureFlagPage from './Pages/FeatureFlagPage.jsx';
 import CustomHooksPage from './Pages/CustomHooksPage.jsx';
 import ScrollToTopAndBottomPage from './Pages/ScrollToTopAndBottomPage.jsx';
+import ScrollToSectionPage from './Pages/ScrollToSectionPage.jsx';
 function App() {
   return (
     <>
@@ -44,6 +45,7 @@ function App() {
               path='/scrolltopbottom'
               element={<ScrollToTopAndBottomPage />}
             />
+            <Route path='/scrolltosection' element={<ScrollToSectionPage />} />
           </Routes>
         </main>
         <footer>
