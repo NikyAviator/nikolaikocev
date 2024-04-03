@@ -1,6 +1,17 @@
 import '../../scss/styles.scss';
+import { useRef } from 'react';
 
 const ScrollToSection = () => {
+  const ref = useRef(null);
+
+  const handleScrollToSection = () => {
+    let pos = ref.current.getBoundingClientRect().top;
+    window.scrollTo({
+      top: pos,
+      behavior: 'smooth',
+    });
+  };
+
   const data = [
     {
       label: 'First Card',
@@ -47,9 +58,9 @@ const ScrollToSection = () => {
   return (
     <>
       <h1>Scroll to a particular section:</h1>
-      <button>Click to scroll</button>
-      {data.map((item) => (
-        <div key={item.label} style={item.style}>
+      <button onClick={handleScrollToSection}>Click to scroll</button>
+      {data.map((item, index) => (
+        <div ref={index === 2 ? ref : null} key={item.label} style={item.style}>
           <h3>{item.label}</h3>
         </div>
       ))}
