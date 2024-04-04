@@ -5,7 +5,7 @@ import Weather from '../Components/weather-app/weather/Weather';
 const WeatherPage = () => {
   return (
     <Container>
-      <h1>Under progress...</h1>
+      <h2>Weather app under progress...</h2>
       <Weather />
     </Container>
   );

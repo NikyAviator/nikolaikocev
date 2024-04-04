@@ -1,7 +1,13 @@
 import '../../../scss/styles.scss';
+import Search from '../search/Search';
 
 const Weather = () => {
-  return <>Weather</>;
+  return (
+    <>
+      <Search />
+      Weather
+    </>
+  );
 };
 
 export default Weather;
