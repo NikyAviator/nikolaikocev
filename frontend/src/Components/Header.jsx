@@ -13,7 +13,7 @@ function Header() {
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='ms-auto'>
             <Nav.Link href='/'>Home</Nav.Link>
-
+            <Nav.Link href='/weather'>Weather</Nav.Link>
             <NavDropdown title='React Micro Projects' id='basic-nav-dropdown'>
               <NavDropdown.Item href='/randomcolor'>
                 Random Color

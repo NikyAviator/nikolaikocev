@@ -18,6 +18,7 @@ import FeatureFlagPage from './Pages/FeatureFlagPage.jsx';
 import CustomHooksPage from './Pages/CustomHooksPage.jsx';
 import ScrollToTopAndBottomPage from './Pages/ScrollToTopAndBottomPage.jsx';
 import ScrollToSectionPage from './Pages/ScrollToSectionPage.jsx';
+import WeatherPage from './Pages/WeatherPage.jsx';
 function App() {
   return (
     <>
@@ -46,6 +47,7 @@ function App() {
               element={<ScrollToTopAndBottomPage />}
             />
             <Route path='/scrolltosection' element={<ScrollToSectionPage />} />
+            <Route path='/weather' element={<WeatherPage />} />
           </Routes>
         </main>
         <footer>
