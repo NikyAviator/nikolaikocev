@@ -5,7 +5,7 @@ import Weather from '../Components/weather-app/weather/Weather';
 const WeatherPage = () => {
   return (
     <Container>
-      <h2>Functionality working, needs styling!</h2>
+      <h2>Type a city to get weather info:</h2>
       <Weather />
     </Container>
   );

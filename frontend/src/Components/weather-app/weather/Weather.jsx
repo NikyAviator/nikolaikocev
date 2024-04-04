@@ -65,7 +65,7 @@ const Weather = () => {
           <div className='date'>
             <span>{getCurrentDate()}</span>
           </div>
-          <div>{weatherData?.main?.temp}°C</div>
+          <div>{weatherData?.main?.temp} °C</div>
           <p className='description'>
             {weatherData && weatherData.weather && weatherData.weather[0]
               ? weatherData.weather[0].description
@@ -74,12 +74,14 @@ const Weather = () => {
           <div className='weather-info'>
             <div>
               <div>
-                <p className='wind'>{weatherData?.wind?.speed}</p>
-                <p>Wind speed (m/s)</p>
+                <p className='wind'>
+                  {weatherData?.wind?.speed} (m/s) windspeed
+                </p>
               </div>
               <div>
-                <p className='humidity'>{weatherData?.main?.humidity}%</p>
-                <p>Humidity</p>
+                <p className='humidity'>
+                  {weatherData?.main?.humidity}% humidity
+                </p>
               </div>
             </div>
           </div>
