@@ -1,8 +1,7 @@
 /* eslint-disable react/prop-types */
 import '../../../scss/styles.scss';
 
-const Search = ({ search, setSearch }) => {
-  const handleSearch = () => {};
+const Search = ({ search, setSearch, handleSearch }) => {
   return (
     <div className='search-engine'>
       <input
