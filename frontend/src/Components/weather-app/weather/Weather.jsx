@@ -34,9 +34,15 @@ const Weather = () => {
     fetchWeatherData('Stockholm');
   }, []);
 
-  if (loading) {
-    return <h2>Loading...</h2>;
-  }
+  const getCurrentDate = () => {
+    const date = new Date();
+    return date.toLocaleDateString('en-us', {
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+    });
+  };
 
   console.log(weatherData);
 
@@ -47,7 +53,38 @@ const Weather = () => {
         setSearch={setSearch}
         handleSearch={handleSearch}
       />
-      Weather
+      {loading ? (
+        <div>Loading</div>
+      ) : (
+        <div>
+          <div className='city-name'>
+            <h2>
+              {weatherData?.name}, <span>{weatherData?.sys?.country}</span>
+            </h2>
+          </div>
+          <div className='date'>
+            <span>{getCurrentDate()}</span>
+          </div>
+          <div>{weatherData?.main?.temp}°C</div>
+          <p className='description'>
+            {weatherData && weatherData.weather && weatherData.weather[0]
+              ? weatherData.weather[0].description
+              : 'No description'}
+          </p>
+          <div className='weather-info'>
+            <div>
+              <div>
+                <p className='wind'>{weatherData?.wind?.speed}</p>
+                <p>Wind speed (m/s)</p>
+              </div>
+              <div>
+                <p className='humidity'>{weatherData?.main?.humidity}%</p>
+                <p>Humidity</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 };
