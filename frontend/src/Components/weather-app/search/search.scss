@@ -1,0 +1,30 @@
+.search-engine {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.search-engine input {
+  width: 70%;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 2px 15px;
+  font-size: 16px;
+  outline: none;
+  background-color: #fff;
+  color: #000000;
+}
+
+.search-engine button {
+  border: none;
+  border-radius: 8px;
+  background-color: #000000;
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+  padding: 10px 12px;
+}
