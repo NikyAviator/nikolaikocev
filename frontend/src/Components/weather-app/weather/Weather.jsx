@@ -1,7 +1,6 @@
 import '../../../scss/styles.scss';
 import Search from '../search/Search';
 import { useEffect, useState } from 'react';
-import process from 'process';
 
 const Weather = () => {
   const [search, setSearch] = useState('');
@@ -12,7 +11,7 @@ const Weather = () => {
     setLoading(true);
 
     try {
-      const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
+      const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
       const response = await fetch(
         `http://api.openweathermap.org/data/2.5/weather?q=${param}&units=metric&appid=${apiKey}`
       );
