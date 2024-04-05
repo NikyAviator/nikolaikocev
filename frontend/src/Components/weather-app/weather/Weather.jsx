@@ -1,6 +1,7 @@
 import '../../../scss/styles.scss';
 import Search from '../search/Search';
 import { useEffect, useState } from 'react';
+import process from 'process';
 
 const Weather = () => {
   const [search, setSearch] = useState('');
@@ -9,6 +10,7 @@ const Weather = () => {
 
   const fetchWeatherData = async (param) => {
     setLoading(true);
+
     try {
       const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
       const response = await fetch(
