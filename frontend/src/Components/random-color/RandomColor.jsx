@@ -48,14 +48,14 @@ const RandomColor = () => {
                 type='button'
                 class='btn btn-secondary'
               >
-                Create Hex Color
+                Choose Hex Color
               </Button>
               <Button
                 onClick={() => setTypeOfColor('rgb')}
                 type='button'
                 class='btn btn-secondary'
               >
-                Create Rgb Color
+                Choose Rgb Color
               </Button>
               <Button
                 onClick={
