@@ -1,8 +1,11 @@
 import '../scss/styles.scss';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import nikyPic from '/pictures/niky.png';
 import linux from '/pictures/linux.png';
 import html from '/pictures/html-5.png';
@@ -173,23 +176,35 @@ const NikyInfo = () => {
 
           <hr />
         </Card.Text>
-        <Button
-          className='my-2 mx-3'
-          variant='dark'
-          alt='GitHub Link'
-          href='https://github.com/NikyAviator'
-          target='_blank'
-        >
-          <FontAwesomeIcon icon={faGithub} /> GitHub
-        </Button>
-        <Button
-          variant='primary'
-          alt='LinkedIn Link'
-          href='https://www.linkedin.com/in/nikolai-kocev-33799167'
-          target='_blank'
-        >
-          <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
-        </Button>
+        <Row>
+          <Col>
+            <Button
+              className='my-2 mx-3'
+              variant='dark'
+              alt='GitHub Link'
+              href='https://github.com/NikyAviator'
+              target='_blank'
+            >
+              <FontAwesomeIcon icon={faGithub} /> GitHub
+            </Button>
+
+            <Button
+              variant='primary'
+              alt='LinkedIn Link'
+              href='https://www.linkedin.com/in/nikolai-kocev-33799167'
+              target='_blank'
+            >
+              <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+            </Button>
+          </Col>
+        </Row>
+        <Row className='justify-content-center'>
+          <Col xs='auto'>
+            <Button variant='secondary' href='mailto:nikyaviator@gmail.com'>
+              <FontAwesomeIcon icon={faEnvelope} /> Email Me
+            </Button>
+          </Col>
+        </Row>
       </Card.Body>
     </Card>
   );
