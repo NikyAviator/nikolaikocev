@@ -13,36 +13,26 @@ const NikyTextInfo = () => {
       }}
     >
       <Card.Body>
-        <Card.Title className=''>About Me</Card.Title>
+        <Card.Title>About Me</Card.Title>
         <Card.Text className='sixtyfour-regular'>
           <p>
-            My name is Nikolai Kocev, and I am a junior full-stack developer
-            with a particular focus on JavaScript and Java.
+            I'm Nikolai Kocev, a junior full-stack developer specializing in
+            JavaScript and Java, with a background as a flight instructor. This
+            experience honed my attention to detail and adaptability, essential
+            in my web development career.
           </p>
           <p>
-            I began my career as a flight instructor, where I taught the art of
-            navigating the skies. Through this experience, I developed a strong
-            appreciation for details, accuracy, and a continuous pursuit of
-            knowledge. These traits became foundational and very useful when I
-            decided to transition into web development.
+            I've explored Linux extensively and utilize my problem-solving
+            skills honed in aviation to quickly adapt to new technologies in web
+            development. My website showcases my journey and skills, featuring
+            dynamic projects in both frontend and backend development.
           </p>
           <p>
-            Throughout my journey in the realm of web development, I discovered
-            a deep interest for technology, programming, and especially Linux. I
-            have spent countless hours exploring Linux environments, which has
-            strengthened my understanding of how systems operate.
-          </p>
-          <p>
-            My experience in aviation has also given me a unique perspective on
-            problem-solving. In aviation, the ability to think on your feet and
-            solve problems quickly is essential. This skill has been invaluable
-            in my transition to web development, where I have been able to
-            quickly adapt to new technologies and solve complex problems.
-          </p>
-          <p>
-            These experiences, combined with my focus on JavaScript and Java,
-            has equipped me with the tools I need to learn build robust,
-            efficient, and user-friendly web solutions.
+            The frontend of my website uses React and JavaScript, optimized for
+            performance and design with Vite and Bootstrap 5, hosted on
+            Cloudflare. My README.md offers a comprehensive guide for
+            developers, reflecting my commitment to sharing knowledge and
+            enhancing web solutions.
           </p>
         </Card.Text>
       </Card.Body>
