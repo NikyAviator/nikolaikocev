@@ -6,7 +6,7 @@ const data = [
     answer:
       'Higher vocational education, full-time, at Teknikhögskolan in Lund, ' +
       'Sweden. Length: two years (400 YH-poäng). ' +
-      'https://teknikhogskolan.se/utbildningar/fullstackutvecklare-javascript/',
+      'Two internships were integral part of the program.',
   },
   {
     id: '2',
@@ -20,7 +20,7 @@ const data = [
     id: '3',
     question: '2014 - 2017: FI(A) R, PPL, SSSoA - Malmö, Sweden.',
     answer:
-      'I it took a long time to complete, life happens. I finally got my ceritifcate and began teaching people to fly in Eslöv and Kristianstad.',
+      'I got my ceritifcate and began teaching people to fly in Eslöv and Kristianstad.',
   },
   {
     id: '4',
