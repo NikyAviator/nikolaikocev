@@ -4,17 +4,17 @@ const data = [
     question:
       'Feb 2023 - Aug 2023: Backend Developer - IKEA - Interaction Core ',
     answer:
-      'From February to April 2023, I interned at IKEA, during which I wrote a ' +
-      'thesis on Redis vs. Bigtable, deepening my grasp on team-utilized ' +
-      'technologies. Following this, I joined as a summer contractor from June to ' +
-      'August 2023. Alongside two colleagues, we developed a Bigtable API.' +
-      ' Tech: JavaScript, Python (Locust), Redis & Bigtable, Bash, Docker, GCP (Google Cloud Platform)',
+      'During my second internship, at the suggestion of my boss, my classmate' +
+      'and I tackled a thesis comparing Redis and Bigtable to enhance our ' +
+      "team's tech understanding. After wrapping up the thesis, I continued as a" +
+      'summer contractor from June to August, collaborating with two ' +
+      'colleagues on developing a Bigtable API.',
   },
   {
     id: '2',
     question: 'Apr 2022 - Jun 2022: Frontend Developer - ONE Nordic AB',
     answer:
-      'During my first internship, I was tasked with improving the UX/UI of the company’s new website, making it more responsive using Bootstrap, integrating the Google Maps API, among other tasks. This experience enhanced my skills in C#, JavaScript, and Bootstrap, contributing to a more engaging user experience. Post-internship, I continued to assist in web development and design as an employee. Tech: C#, JavaScript, Bootstrap, Google Maps API.',
+      "During my first internship, I was tasked with improving the UX/UI of the company's new website, making it more responsive using Bootstrap, integrating the Google Maps API, among other tasks. This experience enhanced my skills in C#, JavaScript, and Bootstrap, contributing to a more engaging user experience. Post-internship, I continued to assist in web development and design as an employee. Tech: C#, JavaScript, Bootstrap, Google Maps API.",
   },
   {
     id: '3',
