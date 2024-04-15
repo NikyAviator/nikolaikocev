@@ -14,49 +14,41 @@ const data = [
     id: '2',
     question: 'Apr 2022 - Jun 2022: Frontend Developer - ONE Nordic AB',
     answer:
-      "During my first internship, I was tasked with improving the UX/UI of the company's new website, making it more responsive using Bootstrap, integrating the Google Maps API, among other tasks. This experience enhanced my skills in C#, JavaScript, and Bootstrap, contributing to a more engaging user experience. Post-internship, I continued to assist in web development and design as an employee. Tech: C#, JavaScript, Bootstrap, Google Maps API.",
+      "During my first internship, I focused on enhancing the UX/UI design of the company's new website, improving responsiveness with Bootstrap, and integrating the Google Maps API. Following the internship, I was employed for an extra month as a summer worker, further contributing to web development and design tasks. Tech used: C#, JS & Bootstrap.",
   },
   {
     id: '3',
     question: 'Jan 2021 - Aug 2021: Airport Analyst - Flygprestanda AB',
     answer:
-      'My role involved updating an in-house database with new airport data, creating engine-out procedures for pilots, and utilizing GNU/Linux for all tasks. This position required a meticulous approach to data management and problem-solving, skills that I have carried forward in my software development career. Tech: GNU/Linux',
+      'Updated an in-house database with new information (new runways, obstacles etc). Created engine-out procedures on request from customers. This is where my interest in GNU/Linux began. The company was using Debian and I was curious about it. My friend recommended my to install Arch Linux, and I was hooked. I have been using Arch Linux as my daily driver since then.',
   },
   {
     id: '4',
     question:
       'Oct 2019 - July 2020: Freelance First Officer - Royal Air, Bromma, Stockholm.',
     answer:
-      'Flew for a small private jet company (Cessna Citation CJ3). I was located ' +
-      'in Stockholm. When Covid-19 hit business slowed down. I moved back to' +
-      ' Skåne and continued to work as a Flight Instructor and simulator pilot.',
+      'Flew for a small private jet company (Cessna Citation CJ3). I was located in Stockholm.',
   },
   {
     id: '5',
     question:
       'Mar 2018 - Mar 2021: Flight Instructor PPL - Eslövs Flygklubb, Sweden.',
     answer:
-      'Flight instructor, taught students to fly small airplanes (C172 and C152) in Eslöv,' +
-      ' Skåne. Also flew tour flights for people who wanted to experience flying and controlling the airplane.',
+      'Flight instructor, taught students to fly small airplanes in Eslöv, Skåne. Also flew tour flights for people who wanted to try flying. We flew C172 and C152. Eslöv has a beatiful airfield. It also has a big aviation community that I really enjoy being a part of.',
   },
   {
     id: '6',
     question:
       'Jan 2018 - Aug 2021: Flight Instructor PPL - Kristianstads Flygklubb, Sweden.',
     answer:
-      'Flight instructor, taught students to fly small airplanes (PA28) in Kristianstad,' +
-      ' Skåne. Also flew tour flights for people who wanted to experience flying and controlling the airplane.',
+      'Flight instructor, taught students to fly small airplanes in Kristianstad, Skåne. Also flew tour flights for people who wanted to try flying. We flew PA-28. I really enjoy the aircraft in Kristianstad. It is a very nice place to have as a base. The runway is long and the airfield is very well maintained. The club has a lot of members and a lot of activities. I really enjoy being a part of this aviation club.',
   },
   {
     id: '7',
     question:
       'Jan 2017 - Dec 2020: Simulator Pilot - Entry Point North, Malmö, Sweden.',
     answer:
-      'EPN offers a computer-based simulation that allows students training to ' +
-      'become air traffic controllers to practice controlling airplanes in a ' +
-      'controlled environment. This simulation provides a safe and effective way ' +
-      'for students to develop the necessary skills and experience before ' +
-      'entering the field. I was controlling the airplanes.',
+      'At EPN, I operated a specialized software simulation for ATC student training, executing aircraft control commands issued by the trainees. This role involved managing virtual aircraft within the simulated environment, providing a realistic and safe training experience to develop their air traffic control skills.',
   },
   {
     id: '8',
