@@ -15,14 +15,14 @@ const NikyTextInfo = () => {
       <Card.Body>
         <Card.Title>About Me</Card.Title>
         <Card.Text className='sixtyfour-regular'>
+          <p>Hey there!</p>
           <p>
-            Hey there! I'm Nikolai Kocev, once a flight instructor, now a junior
-            full-stack developer diving into JavaScript and Java. My days up in
-            the air taught me a ton about precision and quick thinking—skills
-            that come in super handy in the tech world. Transitioning from
-            teaching pilots to coding might seem like a big leap, but it's all
-            about tackling challenges head-on, whether they're in the sky or on
-            the screen.
+            I'm Nikolai Kocev, once a flight instructor, now a junior full-stack
+            developer diving into JavaScript and Java. My days up in the air
+            taught me a ton about precision and quick thinking—skills that come
+            in super handy in the tech world. Transitioning from teaching pilots
+            to coding might seem like a big leap, but it's all about tackling
+            challenges head-on, whether they're in the sky or on the screen.
           </p>
           <p>
             My journey into tech kicked off when a friend reignited my interest
