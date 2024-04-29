@@ -53,8 +53,9 @@ const NikyTextInfo = () => {
             reach out to me through the contact information available on this
             site for any tech or work-related inquiries.
           </p>
-
-          <p>Kind regards, Nikolai Kocev</p>
+          <hr></hr>
+          <p>Kind regards,</p>
+          <p>Nikolai</p>
         </Card.Text>
       </Card.Body>
     </Card>
