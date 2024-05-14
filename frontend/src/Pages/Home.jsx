@@ -11,12 +11,15 @@ import AccordionEdu from '../Components/AccordionEdu/AccordionEdu';
 const Home = () => {
   return (
     <>
-      <Container>
+      <Container className='mb-5'>
+        {' '}
         <Row>
-          <Col md={4}>
+          <Col lg={4} md={12}>
+            {' '}
             <NikyInfo />
           </Col>
-          <Col md={8} className='my-3'>
+          <Col className='my-3' lg={8} md={12}>
+            {' '}
             <NikyTextInfo />
             <DownloadCVButton />
           </Col>
