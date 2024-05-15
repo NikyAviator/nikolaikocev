@@ -12,12 +12,13 @@ const Weather = () => {
 
     try {
       const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
+      console.log('ApiKey: ', apiKey);
       const response = await fetch(
         `http://api.openweathermap.org/data/2.5/weather?q=${param}&units=metric&appid=${apiKey}`
       );
 
       const data = await response.json();
-      console.log(data);
+      //console.log(data);
       if (data) {
         setWeatherData(data);
         setLoading(false);
