@@ -43,9 +43,9 @@ const NikyTextInfo = () => {
             This was another valuable learning opportunity for me. As I continue
             to explore and learn, the website will evolve, reflecting new skills
             and experiments with different technologies. I'm considering
-            expanding the site to include a Java backend, potentially adding
-            features like a blog or login system to practice integrating both
-            front-end and back-end development.
+            expanding the site to include a JavaScript (NodeJS) backend,
+            potentially adding features like a blog or login system to practice
+            integrating both front-end and back-end development.
           </p>
           <p>
             I am always open to making new connections and discussing anything
