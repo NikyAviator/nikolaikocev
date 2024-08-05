@@ -10,7 +10,7 @@ _The frontend, which is the heart of this project at the moment, is crafted usin
 
 _An exciting feature of this project is its hosting solution. Through the generous assistance of my friend, Adam Wamai Egesa, the site is currently hosted on Cloudflare, benefiting from its global CDN and web security services. This collaboration has been instrumental in bringing the project to life on the web._
 
-_Looking ahead, I am planning to expand the project's backend using Java and Spring Boot. This addition will not only introduce the ability to manage user logins but also pave the way for dynamic features such as a blog. This progression will mark a significant milestone in evolving the site from a static to a dynamic platform, offering a richer user experience._
+Looking ahead, I am planning to expand the project's backend using Node.js and MongoDB. This decision is influenced by my summer work experience at IKEA, where these technologies are extensively used. This addition will introduce the ability to manage user logins and pave the way for dynamic features such as a blog. This progression will mark a significant milestone in evolving the site from a static to a dynamic platform, offering a richer user experience.
 
 _Equally important to the project's technological stack is the documentation. The project's README.md serves as a comprehensive guide for anyone looking to construct a skeleton project utilizing Vite and React. This documentation is intended to streamline the setup process for similar projects, encapsulating the essence of building modern web applications with efficiency and ease._
 
