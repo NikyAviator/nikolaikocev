@@ -1,7 +1,7 @@
 const data = [
   {
     id: '1',
-    question: 'June 2024 - Aug 2024: Backend Developer - IKEA - CDA',
+    question: 'June 2024 - Sep 2024: Backend Developer - IKEA - CDA',
     answer:
       'During my summer job, I collaborated with another summer worker to develop an Availability Test API. This API tests the entire data pipeline by sending custom payloads to simulate user interactions and purchases. It ensures data integrity and accuracy by validating that events are processed and stored correctly. The API supports custom payloads, enabling comprehensive and flexible testing scenarios to monitor the performance and availability of our data processing systems.',
   },
