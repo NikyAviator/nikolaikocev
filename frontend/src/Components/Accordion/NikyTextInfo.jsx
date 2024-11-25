@@ -13,9 +13,8 @@ const NikyTextInfo = () => {
       }}
     >
       <Card.Body>
-        <Card.Title>About Me</Card.Title>
+        <Card.Title>Hello!</Card.Title>
         <Card.Text className='sixtyfour-regular'>
-          <p>Hey there!</p>
           <p>
             I'm Nikolai Kocev, a pilot and flight instructor from Sweden who's
             taken a dive into the world of coding. I’ve always loved flying—it’s
