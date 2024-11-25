@@ -36,9 +36,18 @@ const NikyTextInfo = () => {
             To turn this newfound interest into a career, I applied for a
             two-year vocational programming course at Teknikhögskolan in Lund,
             Sweden. It’s been an incredible journey so far, diving deep into
-            programming languages, frameworks, and building projects that blend
-            creativity and problem-solving.
+            programming languages, frameworks, and building projects.
           </p>
+          <p>
+            My most known programming language is JavaScript / NodeJs, and I
+            also have experience with React. Right now, I am building a
+            full-stack application called AeroQuiz, a quiz program focused on
+            aviation—a field I deeply love. For this project, I am using NodeJs,
+            React, Express, and MongoDB. The application will be hosted on GCP,
+            using Docker. It will feature topics like Meteorology, General
+            Navigation, Performance, and more.
+          </p>
+
           <p>
             I am always open to making new connections and discussing anything
             related to technology or potential collaborations. Feel free to
