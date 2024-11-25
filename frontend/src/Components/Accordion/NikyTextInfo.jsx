@@ -49,11 +49,12 @@ const NikyTextInfo = () => {
           </p>
 
           <p>
-            I am always open to making new connections and discussing anything
-            related to technology or potential collaborations. Feel free to
-            reach out to me through the contact information available on this
-            site for any tech or work-related inquiries.
+            I am a junior programmer open to work and collaborations. This
+            website serves as both a CV and a contact point, but it's also my
+            playground for practicing and exploring new things in React and
+            other technologies.
           </p>
+
           <hr></hr>
           <p>Kind regards,</p>
           <p>Nikolai</p>
