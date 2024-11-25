@@ -29,7 +29,7 @@ const NikyTextInfo = () => {
             and trial-and-error. But once it was up and running, I was hooked. I
             loved the freedom to customize, experiment, and learn at every turn.
             That one decision completely changed my perspective and opened the
-            door to a new passion.
+            door to a new world.
           </p>
           <p>
             To turn this newfound interest into a career, I applied for a
