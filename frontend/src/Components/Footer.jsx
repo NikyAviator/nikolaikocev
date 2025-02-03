@@ -29,7 +29,7 @@ const Footer = () => {
             <FaLinkedin size='1em' />
           </a>
         </div>
-        <span className='mx-2'>V1.2.0 Last updated: 2025-02-01</span>
+        <span className='mx-2'>V1.3.0 Last updated: 2025-02-03</span>
       </div>
     </footer>
   );
