@@ -4,7 +4,7 @@
 set -e
 
 # Define image and container name
-IMAGE_NAME="nikysite-frontend:latest"
+IMAGE_NAME="nikysite-frontend"
 CONTAINER_NAME="nikysite-frontend"
 PORT=8080
 
