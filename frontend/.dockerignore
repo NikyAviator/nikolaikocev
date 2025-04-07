@@ -1,0 +1,11 @@
+# Don't copy these into Docker image
+node_modules
+dist
+.git
+.gitignore
+Dockerfile
+docker-compose.yml
+.env
+*.log
+.vscode
+.DS_Store

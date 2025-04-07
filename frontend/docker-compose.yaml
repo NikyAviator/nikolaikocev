@@ -1,0 +1,12 @@
+name: nikysite
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '8080:8080'
+    env_file:
+      - .env
+    container_name: nikysite-frontend
